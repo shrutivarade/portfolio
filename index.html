@@ -32,19 +32,10 @@
         <div class="flex justify-between items-center">
           <span class="text-2xl font-bold gradient-text">Shruti Varade</span>
           <div class="hidden md:flex space-x-6">
-            <a href="#home" class="hover:text-[#be8c5f] transition">Home</a>
-            <a href="#education" class="hover:text-[#be8c5f] transition"
-              >Education</a
-            >
-            <a href="#experience" class="hover:text-[#be8c5f] transition"
-              >Experience</a
-            >
-            <a href="#projects" class="hover:text-[#be8c5f] transition"
-              >Projects</a
-            >
-            <a href="#hobbies" class="hover:text-[#be8c5f] transition"
-              >Hobbies</a
-            >
+            <a href="#home" class="hover:text-[#be8c5f] transition ">Home</a>
+            <a href="#education-experience" class="hover:text-[#be8c5f] transition">Education & Experience</a>
+            <a href="#projects" class="hover:text-[#be8c5f] transition">Projects</a>
+            <a href="#hobbies" class="hover:text-[#be8c5f] transition">Hobbies</a>
           </div>
         </div>
       </div>
@@ -93,125 +84,82 @@
             <img
               src="gfx/photo.jpeg"
               alt="Profile"
-              class="w-72 h-72 mx-auto rounded-full shadow-lg object-cover"
+              class="w-96 h-96 mx-auto rounded-full shadow-lg object-cover"
             />
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Education Section -->
-    <section id="education" class="py-20 bg-white">
+    <!-- Education & Experience Section -->
+    <section id="education-experience" class="py-20 bg-white">
       <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold mb-12 text-center gradient-text">
-          Education
-        </h2>
-        <div class="space-y-8">
-          <div class="bg-[#f5f5dc] p-6 rounded-lg shadow-md">
-            <h3 class="text-xl font-semibold">
-              Master of Science in Computer Science
-            </h3>
-            <p class="text-gray-600">
-              University of Massachusetts, Boston | 2022 - 2024
-            </p>
-            <p class="mt-2">GPA: 3.9/4.0</p>
+        <!-- <h2 class="text-3xl font-bold mb-12 text-center gradient-text">
+          Education & Experience
+        </h2> -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <!-- Education Column -->
+          <div>
+            <h3 class="text-2xl font-semibold mb-6 text-[#be8c5f]">Education</h3>
+            <div class="space-y-8">
+              <div class="bg-[#f5f5dc] p-6 rounded-lg shadow-md">
+                <h4 class="text-xl font-semibold">
+                  Master of Science in Computer Science
+                </h4>
+                <p class="text-gray-600">
+                  University of Massachusetts, Boston | 2022 - 2024
+                </p>
+                <p class="mt-2">GPA: 3.9/4.0</p>
+              </div>
+              <div class="bg-[#f5f5dc] p-6 rounded-lg shadow-md">
+                <h4 class="text-xl font-semibold">
+                  Bachelor of Computer Engineering
+                </h4>
+                <p class="text-gray-600">University of Mumbai | 2016 - 2020</p>
+                <p class="mt-2">CGPA: 8.32/10.0</p>
+              </div>
+            </div>
           </div>
-          <div class="bg-[#f5f5dc] p-6 rounded-lg shadow-md">
-            <h3 class="text-xl font-semibold">
-              Bachelor of Engineering in Computer Engineering
-            </h3>
-            <p class="text-gray-600">University of Mumbai | 2016 - 2020</p>
-            <p class="mt-2">CGPA: 8.32/10.0</p>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="py-20 bg-[#f5f5dc]">
-      <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold mb-12 text-center gradient-text">
-          Experience
-        </h2>
-        <div class="space-y-8">
-          <div class="bg-white p-6 rounded-lg shadow-md">
-            <h3 class="text-xl font-semibold">Software Engineer</h3>
-            <p class="text-gray-600">
-              Massachusetts General Hospital - Harvard Medical School | July
-              2024 - Nov 2024
-            </p>
-            <!-- <ul class="list-disc ml-6 mt-2">
-              <li>
-                Developed a tractography file reader using TypeScript for 3D
-                visualization of neural pathways.
-              </li>
-              <li>
-                Optimized data parsing for datasets over 1TB, reducing fetch
-                time by 40%.
-              </li>
-              <li>
-                Designed an RGB color map and heat map for advanced insights
-                into neural structures.
-              </li>
-            </ul> -->
-          </div>
-          <div class="bg-white p-6 rounded-lg shadow-md">
-            <h3 class="text-xl font-semibold">Research Assistant</h3>
-            <p class="text-gray-600">
-              Machine Psychology Lab | May 2023 - May 2024
-            </p>
-            <!-- <ul class="list-disc ml-6 mt-2">
-              <li>
-                Developed Boostlet.js, a library enabling advanced image
-                processing and data visualization.
-              </li>
-              <li>
-                Integrated external libraries with Node.js, improving code
-                efficiency by 40%.
-              </li>
-              <li>
-                Implemented modular MVC architecture for streamlined developer
-                collaboration.
-              </li>
-            </ul> -->
-          </div>
-          <div class="bg-white p-6 rounded-lg shadow-md">
-            <h3 class="text-xl font-semibold">Software Engineer</h3>
-            <p class="text-gray-600">
-              TATA Consultancy Services | Sept 2020 - June 2022
-            </p>
-            <!-- <ul class="list-disc ml-6 mt-2">
-              <li>
-                Developed an employee portal using Spring Boot and JavaScript
-                for a financial firm.
-              </li>
-              <li>
-                Optimized MySQL database queries, improving retrieval efficiency
-                by 30%.
-              </li>
-              <li>
-                Implemented REST APIs for Identity and Access Management (IAM)
-                integration.
-              </li>
-              <li>
-                Improved software reliability through Git-based version control
-                and Atlassian tools.
-              </li>
-            </ul> -->
+          <!-- Experience Column -->
+          <div>
+            <h3 class="text-2xl font-semibold mb-6 text-[#be8c5f]">Experience</h3>
+            <div class="space-y-8">
+              <div class="bg-[#f5f5dc] p-6 rounded-lg shadow-md">
+                <h4 class="text-xl font-semibold">Software Engineer</h4>
+                <p class="text-gray-600">
+                  MGH - Harvard Medical School | July
+                  2024 - Nov 2024
+                </p>
+              </div>
+              <div class="bg-[#f5f5dc] p-6 rounded-lg shadow-md">
+                <h4 class="text-xl font-semibold">Research Assistant</h4>
+                <p class="text-gray-600">
+                  Machine Psychology Lab | May 2023 - May 2024
+                </p>
+              </div>
+              <div class="bg-[#f5f5dc] p-6 rounded-lg shadow-md">
+                <h4 class="text-xl font-semibold">Software Engineer</h4>
+                <p class="text-gray-600">
+                  TATA Consultancy Services | Sept 2020 - June 2022
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="py-20 bg-white">
+    <section id="projects" class="py-20 bg-[#f5f5dc]">
       <div class="container mx-auto px-4">
         <h2 class="text-3xl font-bold mb-12 text-center gradient-text">
           Projects
         </h2>
+        <!-- Add your projects content here -->
 
         <!-- LeetCode Badges -->
-        <div class="mb-12 p-6 bg-[#f5f5dc] rounded-lg shadow-md">
+        <div class="mb-12 p-6 bg-white rounded-lg shadow-md">
           <h3 class="text-2xl font-semibold text-center mb-4">
             LeetCode Achievements
           </h3>
@@ -236,7 +184,7 @@
             <i class="bi bi-cup-hot"></i> Java Projects
           </h3>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div class="bg-[#f5f5dc] p-6 rounded-lg shadow-md">
+            <div class="bg-white p-6 rounded-lg shadow-md">
               <h4 class="text-xl font-semibold">Search Engine Optimization</h4>
               <p class="mt-2">
                 Advanced search engine utilizing Multithreading and Concurrency
@@ -256,7 +204,7 @@
                 >View Project →</a
               >
             </div>
-            <div class="bg-[#f5f5dc] p-6 rounded-lg shadow-md">
+            <div class="bg-white p-6 rounded-lg shadow-md">
               <h4 class="text-xl font-semibold">Thread Safe Music App</h4>
               <p class="mt-2">
                 Music application implementing Design Principles, Stream API and
@@ -285,7 +233,7 @@
             <i class="bi bi-filetype-js"></i> JavaScript Projects
           </h3>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div class="bg-[#f5f5dc] p-6 rounded-lg shadow-md">
+            <div class="bg-white p-6 rounded-lg shadow-md">
               <h4 class="text-xl font-semibold">Neuroglancer</h4>
               <p class="mt-2">
                 A tractography file reader using TypeScript for 3D visualization
@@ -305,7 +253,7 @@
                 >View Project →</a
               >
             </div>
-            <div class="bg-[#f5f5dc] p-6 rounded-lg shadow-md">
+            <div class="bg-white p-6 rounded-lg shadow-md">
               <h4 class="text-xl font-semibold">Boostlet.js</h4>
               <p class="mt-2">
                 JavaScript plugin for medical image processing with advanced
@@ -325,7 +273,7 @@
                 >View Project →</a
               >
             </div>
-            <div class="bg-[#f5f5dc] p-6 rounded-lg shadow-md">
+            <div class="bg-white p-6 rounded-lg shadow-md">
               <h4 class="text-xl font-semibold">Boxcraft.js</h4>
               <p class="mt-2">
                 Independent library for creating bounding boxes on any HTML
@@ -354,7 +302,7 @@
             <i class="bi bi-filetype-py"></i> Python Projects
           </h3>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div class="bg-[#f5f5dc] p-6 rounded-lg shadow-md">
+            <div class="bg-white p-6 rounded-lg shadow-md">
               <h4 class="text-xl font-semibold">Guide Genie</h4>
               <p class="mt-2">
                 AI-powered professor recommendation system using Gemini ML Model
@@ -374,7 +322,7 @@
                 >View Project →</a
               >
             </div>
-            <div class="bg-[#f5f5dc] p-6 rounded-lg shadow-md">
+            <div class="bg-white p-6 rounded-lg shadow-md">
               <h4 class="text-xl font-semibold">Fitness Metric App</h4>
               <p class="mt-2">
                 Web application using Django, Chart.js and Docker for fitness
@@ -397,26 +345,27 @@
           </div>
         </div>
       </div>
+      </div>
     </section>
 
     <!-- Hobbies Section -->
-    <section id="hobbies" class="py-20 bg-[#f5f5dc]">
+    <section id="hobbies" class="py-20 bg-white">
       <div class="container mx-auto px-4">
         <h2 class="text-3xl font-bold mb-12 text-center gradient-text">
           Hobbies
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-          <div class="bg-white p-6 rounded-lg shadow-md">
+          <div class="bg-[#f5f5dc] p-6 rounded-lg shadow-md">
             <i class="bi bi-dribbble text-4xl text-[#be8c5f]"></i>
             <h3 class="text-xl font-semibold mt-4">Football (Soccer)</h3>
             <p class="mt-2">Playing and watching matches</p>
           </div>
-          <div class="bg-white p-6 rounded-lg shadow-md">
+          <div class="bg-[#f5f5dc] p-6 rounded-lg shadow-md">
             <i class="bi bi-tree text-4xl text-[#be8c5f]"></i>
             <h3 class="text-xl font-semibold mt-4">Hiking</h3>
             <p class="mt-2">Exploring nature trails</p>
           </div>
-          <div class="bg-white p-6 rounded-lg shadow-md">
+          <div class="bg-[#f5f5dc] p-6 rounded-lg shadow-md">
             <i class="bi bi-palette text-4xl text-[#be8c5f]"></i>
             <h3 class="text-xl font-semibold mt-4">Canvas Painting</h3>
             <p class="mt-2">Creating artistic expressions</p>
