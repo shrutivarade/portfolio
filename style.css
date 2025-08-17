@@ -1,0 +1,96 @@
+body {
+  font-family: "Poppins", sans-serif;
+  /* background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%); */
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #5f9ea0, #4682b4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav {
+  box-shadow: 0 2px 12px rgba(70, 130, 180, 0.08);
+}
+
+section {
+  transition: background 0.3s;
+}
+
+.card {
+  background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 24px rgba(70, 130, 180, 0.12);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  transition: box-shadow 0.2s;
+}
+.card:hover {
+  box-shadow: 0 8px 32px rgba(70, 130, 180, 0.18);
+}
+
+.btn {
+  background: linear-gradient(90deg, #5f9ea0 0%, #4682b4 100%);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 0.75rem 2rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(70, 130, 180, 0.10);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.btn:hover {
+  background: linear-gradient(90deg, #4682b4 0%, #5f9ea0 100%);
+  box-shadow: 0 4px 16px rgba(70, 130, 180, 0.18);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #cfdef3;
+}
+::-webkit-scrollbar-thumb {
+  background: #5f9ea0;
+  border-radius: 8px;
+}
+
+footer {
+  background: linear-gradient(90deg, #e0eafc 0%, #cfdef3 100%);
+  color: #4682b4;
+}
+
+/* Friendly accent for headings */
+h1, h2, h3, h4 {
+  color: #4682b4;
+}
+
+/* Soft hover for links */
+a:hover {
+  color: #5f9ea0 !important;
+  text-decoration: underline;
+}
+
+/* Profile image styling */
+.profile-img {
+  border: 6px solid #cfdef3;
+  box-shadow: 0 4px 24px rgba(70, 130, 180, 0.15);
+}
+
+/* Badge styling */
+.badge {
+  background: linear-gradient(90deg, #e0eafc 0%, #cfdef3 100%);
+  border-radius: 999px;
+  padding: 0.5rem 1.5rem;
+  color: #4682b4;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(70, 130, 180, 0.08);
+}
+
+/* Hobbies icons */
+.hobby-icon {
+  color: #5f9ea0;
+  background: #e0eafc;
+  border-radius: 50%;
+  padding: 0.75rem;
+  font-size: 2.5rem;
+  box-shadow: 0 2px 8px rgba(70, 130, 180, 0.10);
+}
